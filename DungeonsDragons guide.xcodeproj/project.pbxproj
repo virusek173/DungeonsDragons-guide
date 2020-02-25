@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0416F9BA23F60FCC002A66C5 /* ListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0416F9B923F60FCC002A66C5 /* ListElement.swift */; };
 		0430723223F49D53002A4E88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430723123F49D53002A4E88 /* AppDelegate.swift */; };
 		0430723423F49D53002A4E88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430723323F49D53002A4E88 /* SceneDelegate.swift */; };
 		0430723623F49D53002A4E88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430723523F49D53002A4E88 /* ViewController.swift */; };
 		0430723923F49D53002A4E88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0430723723F49D53002A4E88 /* Main.storyboard */; };
 		0430723B23F49D54002A4E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0430723A23F49D54002A4E88 /* Assets.xcassets */; };
 		0430723E23F49D54002A4E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0430723C23F49D54002A4E88 /* LaunchScreen.storyboard */; };
+		048BA55C2402E85200B60113 /* ListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048BA55B2402E85200B60113 /* ListElements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0416F9B923F60FCC002A66C5 /* ListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListElement.swift; sourceTree = "<group>"; };
 		0430722E23F49D53002A4E88 /* DungeonsDragons guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DungeonsDragons guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0430723123F49D53002A4E88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0430723323F49D53002A4E88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		0430723A23F49D54002A4E88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0430723D23F49D54002A4E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0430723F23F49D54002A4E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048BA55B2402E85200B60113 /* ListElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListElements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				0430723A23F49D54002A4E88 /* Assets.xcassets */,
 				0430723C23F49D54002A4E88 /* LaunchScreen.storyboard */,
 				0430723F23F49D54002A4E88 /* Info.plist */,
+				0416F9B923F60FCC002A66C5 /* ListElement.swift */,
+				048BA55B2402E85200B60113 /* ListElements.swift */,
 			);
 			path = "DungeonsDragons guide";
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0416F9BA23F60FCC002A66C5 /* ListElement.swift in Sources */,
 				0430723623F49D53002A4E88 /* ViewController.swift in Sources */,
+				048BA55C2402E85200B60113 /* ListElements.swift in Sources */,
 				0430723223F49D53002A4E88 /* AppDelegate.swift in Sources */,
 				0430723423F49D53002A4E88 /* SceneDelegate.swift in Sources */,
 			);
