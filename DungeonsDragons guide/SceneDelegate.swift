@@ -25,7 +25,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             for index in 0...2 {
                 let image = UIImage(named: iconArray[index])?.withRenderingMode(UIImage.RenderingMode.alwaysTemplate)
                 let vc = storyboard.instantiateViewController(withIdentifier: "NavController")
-//                vc.tabBarItem = UITabBarItem(tabBarSystemItem: .topRated, tag: index)
                 vc.tabBarItem = UITabBarItem(title: titleArray[index], image: image, tag: index + 1)
                 tabBarController.viewControllers?.append(vc)
             }
