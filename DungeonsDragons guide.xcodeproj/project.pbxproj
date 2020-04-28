@@ -27,11 +27,10 @@
 		04C48AA4242C186800E8484A /* SpellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C48AA3242C186800E8484A /* SpellViewController.swift */; };
 		04C48AA6242C18CB00E8484A /* Spell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C48AA5242C18CB00E8484A /* Spell.swift */; };
 		04FA45BF241DA1C100C07671 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA45BE241DA1C100C07671 /* Monster.swift */; };
-		697D2ED187741A81FCDB8A17 /* Pods_DungeonsDragons_guide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928EA21926192A7D9C58EC22 /* Pods_DungeonsDragons_guide.framework */; };
+		252D397C0C54DA41D3CEC428 /* Pods_DungeonsDragons_guide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7784A8B9EE8296503C66295F /* Pods_DungeonsDragons_guide.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03335E40841A8627FC4A9F2F /* Pods-DungeonsDragons guide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DungeonsDragons guide.debug.xcconfig"; path = "Target Support Files/Pods-DungeonsDragons guide/Pods-DungeonsDragons guide.debug.xcconfig"; sourceTree = "<group>"; };
 		0416F9B923F60FCC002A66C5 /* ListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListElement.swift; sourceTree = "<group>"; };
 		042A6B18242D629E006C71F2 /* Equipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipment.swift; sourceTree = "<group>"; };
 		042A6B1A242D62F9006C71F2 /* EquipmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentViewController.swift; sourceTree = "<group>"; };
@@ -54,8 +53,9 @@
 		04C48AA3242C186800E8484A /* SpellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellViewController.swift; sourceTree = "<group>"; };
 		04C48AA5242C18CB00E8484A /* Spell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spell.swift; sourceTree = "<group>"; };
 		04FA45BE241DA1C100C07671 /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
-		928EA21926192A7D9C58EC22 /* Pods_DungeonsDragons_guide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DungeonsDragons_guide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EC7D781AD5873C94EBD436E /* Pods-DungeonsDragons guide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DungeonsDragons guide.release.xcconfig"; path = "Target Support Files/Pods-DungeonsDragons guide/Pods-DungeonsDragons guide.release.xcconfig"; sourceTree = "<group>"; };
+		7784A8B9EE8296503C66295F /* Pods_DungeonsDragons_guide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DungeonsDragons_guide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD2071788B057FC4B99CF79 /* Pods-DungeonsDragons guide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DungeonsDragons guide.release.xcconfig"; path = "Target Support Files/Pods-DungeonsDragons guide/Pods-DungeonsDragons guide.release.xcconfig"; sourceTree = "<group>"; };
+		F1B4B8ED7F9B9F400C4E70C5 /* Pods-DungeonsDragons guide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DungeonsDragons guide.debug.xcconfig"; path = "Target Support Files/Pods-DungeonsDragons guide/Pods-DungeonsDragons guide.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				697D2ED187741A81FCDB8A17 /* Pods_DungeonsDragons_guide.framework in Frameworks */,
+				252D397C0C54DA41D3CEC428 /* Pods_DungeonsDragons_guide.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +76,7 @@
 				0430723023F49D53002A4E88 /* DungeonsDragons guide */,
 				0430722F23F49D53002A4E88 /* Products */,
 				D1D580745B41A117978385F1 /* Pods */,
-				9EB09B6698E2E630594AC109 /* Frameworks */,
+				F9E551D70E08D03C3EB66D34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,21 +116,21 @@
 			path = "DungeonsDragons guide";
 			sourceTree = "<group>";
 		};
-		9EB09B6698E2E630594AC109 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				928EA21926192A7D9C58EC22 /* Pods_DungeonsDragons_guide.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		D1D580745B41A117978385F1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				03335E40841A8627FC4A9F2F /* Pods-DungeonsDragons guide.debug.xcconfig */,
-				9EC7D781AD5873C94EBD436E /* Pods-DungeonsDragons guide.release.xcconfig */,
+				F1B4B8ED7F9B9F400C4E70C5 /* Pods-DungeonsDragons guide.debug.xcconfig */,
+				AAD2071788B057FC4B99CF79 /* Pods-DungeonsDragons guide.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F9E551D70E08D03C3EB66D34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7784A8B9EE8296503C66295F /* Pods_DungeonsDragons_guide.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,11 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0430724223F49D54002A4E88 /* Build configuration list for PBXNativeTarget "DungeonsDragons guide" */;
 			buildPhases = (
-				12E8633799FF0F3A97FED619 /* [CP] Check Pods Manifest.lock */,
+				3247B1D338AC77902E51FEBD /* [CP] Check Pods Manifest.lock */,
 				0430722A23F49D53002A4E88 /* Sources */,
 				0430722B23F49D53002A4E88 /* Frameworks */,
 				0430722C23F49D53002A4E88 /* Resources */,
-				F7BB87676893B1868F143A8A /* [CP] Embed Pods Frameworks */,
+				6B07B27A76DAC43B8ADBA8E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,7 +202,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		12E8633799FF0F3A97FED619 /* [CP] Check Pods Manifest.lock */ = {
+		3247B1D338AC77902E51FEBD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -224,7 +224,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F7BB87676893B1868F143A8A /* [CP] Embed Pods Frameworks */ = {
+		6B07B27A76DAC43B8ADBA8E6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -406,7 +406,7 @@
 		};
 		0430724323F49D54002A4E88 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03335E40841A8627FC4A9F2F /* Pods-DungeonsDragons guide.debug.xcconfig */;
+			baseConfigurationReference = F1B4B8ED7F9B9F400C4E70C5 /* Pods-DungeonsDragons guide.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -425,7 +425,7 @@
 		};
 		0430724423F49D54002A4E88 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EC7D781AD5873C94EBD436E /* Pods-DungeonsDragons guide.release.xcconfig */;
+			baseConfigurationReference = AAD2071788B057FC4B99CF79 /* Pods-DungeonsDragons guide.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
