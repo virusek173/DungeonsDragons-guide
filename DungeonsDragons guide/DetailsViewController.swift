@@ -16,10 +16,11 @@ class DetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         let title = details?.name
         self.navigationItem.title = title
         self.navigationItem.largeTitleDisplayMode = .never
+        
     }
     
     func fetchImage(additional: String = "") {
