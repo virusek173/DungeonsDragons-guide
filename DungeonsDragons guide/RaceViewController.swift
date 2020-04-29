@@ -7,20 +7,13 @@
 //
 
 import UIKit
-import WebKit
 
 class RaceViewController: DetailsViewController {
     var race: Race?
-    var webView: WKWebView!
-    
-    override func loadView() {
-        webView = WKWebView()
-        view = webView
-    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+                
         fetchRace()
     }
     
@@ -41,7 +34,7 @@ class RaceViewController: DetailsViewController {
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                 <style> body { font-size: 120%; } </style>
             </head>
-            <body>
+        <body style="color: \(self.htmlFontColor)">
                 <img src="\(imageLink)" alt="\(name)" style="\(imageStyle)">
                  <b>Name:</b> \(name) <br />
                  <b>Alignment:</b> \(alignment) <br />
@@ -52,7 +45,7 @@ class RaceViewController: DetailsViewController {
         </html>
         """
 
-        webView.loadHTMLString(html, baseURL: nil)
+        self.webView.loadHTMLString(html, baseURL: nil)
     }
     
     func fetchRace() {

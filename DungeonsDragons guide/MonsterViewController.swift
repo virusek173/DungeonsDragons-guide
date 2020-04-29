@@ -7,17 +7,9 @@
 //
 
 import UIKit
-import WebKit
 
 class MonsterViewController: DetailsViewController {
     var monster: Monster?
-    var webView: WKWebView!
-
-    
-    override func loadView() {
-        webView = WKWebView()
-        view = webView
-    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +19,7 @@ class MonsterViewController: DetailsViewController {
     
     func updateMonster() {
         guard let monster = monster else { return }
+        
         let name = monster.name
         let alignment = monster.alignment
         let languages = monster.languages
@@ -37,14 +30,13 @@ class MonsterViewController: DetailsViewController {
         let defaultImageLink = "https://files.rebel.pl/images/wydawnictwo/zapowiedzi/DnD/DnD_Bug_1c_Red_V1_XL_RGB.png"
         let imageLink = imageUrl ?? defaultImageLink
         let imageStyle = "display: block; margin-left: auto; margin-right: auto; width: 350px; height: 350px;"
-        
         let html = """
         <html>
             <head>
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                 <style> body { font-size: 120%; } </style>
             </head>
-            <body>
+        <body style="color: \(self.htmlFontColor)">
                  <img src="\(imageLink)" alt="\(name)" style="\(imageStyle)">
                  <b>Name:</b> \(name) <br />
                  <b>Alignment:</b> \(alignment) <br />
@@ -55,7 +47,7 @@ class MonsterViewController: DetailsViewController {
         </html>
         """
 
-        webView.loadHTMLString(html, baseURL: nil)
+        self.webView.loadHTMLString(html, baseURL: nil)
     }
     
     func fetchMonster() {
@@ -82,3 +74,12 @@ class MonsterViewController: DetailsViewController {
         }
     }
 }
+
+//extension MonsterViewController: UIScrollViewDelegate {
+//    func scrollViewWillBeginZooming(_ scrollView: UIScrollView, with view: UIView?) {
+//        scrollView.pinchGestureRecognizer?.isEnabled = false
+//        scrollView.showsHorizontalScrollIndicator = false
+//        scrollView.maximumZoomScale = 1.0
+//        scrollView.minimumZoomScale = 1.0
+//    }
+//}
