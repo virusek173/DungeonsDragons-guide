@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0406769E245AF42C00B2CF3B /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406769D245AF42C00B2CF3B /* SplashScreenViewController.swift */; };
 		0416F9BA23F60FCC002A66C5 /* ListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0416F9B923F60FCC002A66C5 /* ListElement.swift */; };
 		042A6B19242D629E006C71F2 /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A6B18242D629E006C71F2 /* Equipment.swift */; };
 		042A6B1B242D62F9006C71F2 /* EquipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A6B1A242D62F9006C71F2 /* EquipmentViewController.swift */; };
@@ -16,8 +17,10 @@
 		0430723923F49D53002A4E88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0430723723F49D53002A4E88 /* Main.storyboard */; };
 		0430723B23F49D54002A4E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0430723A23F49D54002A4E88 /* Assets.xcassets */; };
 		0430723E23F49D54002A4E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0430723C23F49D54002A4E88 /* LaunchScreen.storyboard */; };
+		04409573245B087400C39768 /* dice-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 04409572245B087400C39768 /* dice-animation.json */; };
 		0448AEA7241ED05F009ED1EF /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448AEA6241ED05F009ED1EF /* Action.swift */; };
 		0448AEAB241ED1AD009ED1EF /* MonsterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448AEAA241ED1AD009ED1EF /* MonsterViewController.swift */; };
+		046A80AE245CD97600B45B65 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A80AD245CD97600B45B65 /* CustomNavigationController.swift */; };
 		047839F5242AAC4700A973F0 /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047839F4242AAC4700A973F0 /* Race.swift */; };
 		047839F7242AAD4D00A973F0 /* RaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047839F6242AAD4D00A973F0 /* RaceViewController.swift */; };
 		047BC993244092CD00DA351C /* GoogleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BC992244092CD00DA351C /* GoogleImage.swift */; };
@@ -31,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0406769D245AF42C00B2CF3B /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
 		0416F9B923F60FCC002A66C5 /* ListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListElement.swift; sourceTree = "<group>"; };
 		042A6B18242D629E006C71F2 /* Equipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipment.swift; sourceTree = "<group>"; };
 		042A6B1A242D62F9006C71F2 /* EquipmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentViewController.swift; sourceTree = "<group>"; };
@@ -42,8 +46,10 @@
 		0430723A23F49D54002A4E88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0430723D23F49D54002A4E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0430723F23F49D54002A4E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04409572245B087400C39768 /* dice-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "dice-animation.json"; sourceTree = "<group>"; };
 		0448AEA6241ED05F009ED1EF /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		0448AEAA241ED1AD009ED1EF /* MonsterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterViewController.swift; sourceTree = "<group>"; };
+		046A80AD245CD97600B45B65 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		047839F4242AAC4700A973F0 /* Race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
 		047839F6242AAD4D00A973F0 /* RaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceViewController.swift; sourceTree = "<group>"; };
 		047BC992244092CD00DA351C /* GoogleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleImage.swift; sourceTree = "<group>"; };
@@ -112,6 +118,9 @@
 				04C48AA1242C173C00E8484A /* DetailsViewController.swift */,
 				047BC992244092CD00DA351C /* GoogleImage.swift */,
 				047BC9942440944F00DA351C /* GoogleImageItem.swift */,
+				0406769D245AF42C00B2CF3B /* SplashScreenViewController.swift */,
+				046A80AD245CD97600B45B65 /* CustomNavigationController.swift */,
+				04409572245B087400C39768 /* dice-animation.json */,
 			);
 			path = "DungeonsDragons guide";
 			sourceTree = "<group>";
@@ -194,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0430723E23F49D54002A4E88 /* LaunchScreen.storyboard in Resources */,
+				04409573245B087400C39768 /* dice-animation.json in Resources */,
 				0430723B23F49D54002A4E88 /* Assets.xcassets in Resources */,
 				0430723923F49D53002A4E88 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +260,7 @@
 			files = (
 				0416F9BA23F60FCC002A66C5 /* ListElement.swift in Sources */,
 				0430723623F49D53002A4E88 /* MasterViewController.swift in Sources */,
+				0406769E245AF42C00B2CF3B /* SplashScreenViewController.swift in Sources */,
 				048BA55C2402E85200B60113 /* ListElements.swift in Sources */,
 				04C48AA4242C186800E8484A /* SpellViewController.swift in Sources */,
 				04C48AA2242C173C00E8484A /* DetailsViewController.swift in Sources */,
@@ -264,6 +275,7 @@
 				04C48AA6242C18CB00E8484A /* Spell.swift in Sources */,
 				042A6B19242D629E006C71F2 /* Equipment.swift in Sources */,
 				0430723423F49D53002A4E88 /* SceneDelegate.swift in Sources */,
+				046A80AE245CD97600B45B65 /* CustomNavigationController.swift in Sources */,
 				042A6B1B242D62F9006C71F2 /* EquipmentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

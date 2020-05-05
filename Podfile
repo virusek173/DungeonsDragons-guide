@@ -5,6 +5,7 @@ target 'DungeonsDragons guide' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   
+  pod 'lottie-ios'
   plugin 'cocoapods-keys', {
     :project => "DungeonsDragons guide",
     :keys => [
