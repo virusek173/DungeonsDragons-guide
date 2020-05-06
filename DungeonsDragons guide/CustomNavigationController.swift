@@ -13,7 +13,7 @@ class CustomNavigationController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let displaySplashScreen = !SplashScreenViewController.shpashScreenWasLaunched
+        let displaySplashScreen = !SplashScreenViewController.splashScreenWasLaunched
         let controllerNameToGo = displaySplashScreen ? "SplashScreen" : "MasterView"
         
         self.goToView(controller: controllerNameToGo)

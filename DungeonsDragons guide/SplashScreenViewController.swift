@@ -10,7 +10,7 @@ import UIKit
 import Lottie
 
 class SplashScreenViewController: UIViewController {
-    static var shpashScreenWasLaunched: Bool = false
+    static var splashScreenWasLaunched: Bool = false
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -21,7 +21,7 @@ class SplashScreenViewController: UIViewController {
         super.viewDidLoad()
         
         self.navigationController?.setToolbarHidden(true, animated: false)
-        SplashScreenViewController.shpashScreenWasLaunched = true
+        SplashScreenViewController.splashScreenWasLaunched = true
 
         let animationView = AnimationView()
         if let animation = Animation.named("dice-animation") {

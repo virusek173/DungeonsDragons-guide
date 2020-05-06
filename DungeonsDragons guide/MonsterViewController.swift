@@ -74,12 +74,3 @@ class MonsterViewController: DetailsViewController {
         }
     }
 }
-
-//extension MonsterViewController: UIScrollViewDelegate {
-//    func scrollViewWillBeginZooming(_ scrollView: UIScrollView, with view: UIView?) {
-//        scrollView.pinchGestureRecognizer?.isEnabled = false
-//        scrollView.showsHorizontalScrollIndicator = false
-//        scrollView.maximumZoomScale = 1.0
-//        scrollView.minimumZoomScale = 1.0
-//    }
-//}

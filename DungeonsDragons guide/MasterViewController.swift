@@ -56,9 +56,6 @@ class MasterViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let element: ListElement = isFiltering ? self.filteredElements[indexPath.row] : self.elements[indexPath.row]
         
-//        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
-
-        
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         cell.textLabel?.text = element.name
         return cell
