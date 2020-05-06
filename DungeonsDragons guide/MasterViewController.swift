@@ -14,6 +14,7 @@ class MasterViewController: UITableViewController {
     var baseUrl: String = "https://www.dnd5eapi.co"
     var searchController = UISearchController(searchResultsController: nil)
     var titleList: [String] = ["List of monsters", "List of races", "List of spells", "List of equipments"]
+    let listTypeNames: [String] = ["monsters", "races", "spells", "equipment"]
     var isSearchBarEmpty: Bool {
       return searchController.searchBar.text?.isEmpty ?? true
     }
@@ -24,19 +25,17 @@ class MasterViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let tabBarTag: Int = navigationController?.tabBarItem.tag ?? 0
         self.navigationItem.hidesSearchBarWhenScrolling = false
         self.searchController.searchResultsUpdater = self
         self.searchController.obscuresBackgroundDuringPresentation = false
-        self.searchController.searchBar.placeholder = "Search Monsters"
-        
+        self.searchController.searchBar.placeholder = "Search \(listTypeNames[tabBarTag])"
         self.navigationItem.searchController = searchController
         self.definesPresentationContext = true
-                
-        let tabBarTag: Int = navigationController?.tabBarItem.tag ?? 0
         self.navigationItem.title = titleList[tabBarTag]
+        
         let baseApi: String = baseUrl + "/api/"
-        let endpointUrlList: [String] = ["monsters", "races", "spells", "equipment"]
-        let api: String = baseApi + endpointUrlList[tabBarTag]
+        let api: String = baseApi + listTypeNames[tabBarTag]
 
         if let url = URL(string: api) {
             if let data = try? Data(contentsOf: url) {

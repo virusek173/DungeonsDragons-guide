@@ -7,17 +7,9 @@
 //
 
 import UIKit
-import WebKit
 
 class EquipmentViewController: DetailsViewController {
     var equipment: Equipment?
-    var webView: WKWebView!
-
-    
-    override func loadView() {
-        webView = WKWebView()
-        view = webView
-    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,14 +27,13 @@ class EquipmentViewController: DetailsViewController {
         let defaultImageLink = "https://files.rebel.pl/images/wydawnictwo/zapowiedzi/DnD/DnD_Bug_1c_Red_V1_XL_RGB.png"
         let imageLink = imageUrl ?? defaultImageLink
         let imageStyle = "display: block; margin-left: auto; margin-right: auto; width: 350px; height: 350px;"
-
         let html = """
         <html>
             <head>
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                 <style> body { font-size: 120%; } </style>
             </head>
-            <body>
+        <body style="color: \(self.htmlFontColor)">
                  <img src="\(imageLink)" alt="\(name)" style="\(imageStyle)">
                  <b>Name:</b> \(name) <br />
                  <b>Category:</b> \(equipmentCategory) <br />
@@ -52,7 +43,7 @@ class EquipmentViewController: DetailsViewController {
         </html>
         """
 
-        webView.loadHTMLString(html, baseURL: nil)
+        self.webView.loadHTMLString(html, baseURL: nil)
     }
     
     func fetchEquipment() {
