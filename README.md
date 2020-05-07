@@ -9,3 +9,5 @@ IOS app written in Swift and UIKit. Its a collection of monsters, races, spells 
 # Screnshots
 <img src="screenshots/ss1.jpg" alt="Launch screen" height="300"> <img src="screenshots/ss2.jpg" alt="List of monster" height="300"> <img src="screenshots/ss3.jpg" alt="Example of monster" height="300"> <img src="screenshots/ss4.jpg" alt="Elves" height="300"> <img src="screenshots/ss5.jpg" alt="Searching spells" height="300">
 
+# Icons
+Icons made by [Icongeek26](https://www.flaticon.com/authors/icongeek26), [Eucalyp](https://www.flaticon.com/authors/eucalyp), [Nikita Golubev](https://www.flaticon.com/authors/nikita-golubev), [fjstudio](https://www.flaticon.com/authors/fjstudio) and [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com
